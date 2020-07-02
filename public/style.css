@@ -1,0 +1,15 @@
+/* All Map Styling Should Go Here */
+#map{
+    height:400px;
+    width:400px;
+}
+
+/* All main page / container styling should go here.. */
+#title{
+    display: flex;
+    justify-content: center;
+}
+#container{
+    display:flex;
+    justify-content: center;
+}
