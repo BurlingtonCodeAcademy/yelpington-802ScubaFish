@@ -10,20 +10,29 @@
     <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
         integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
         crossorigin=""></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
     <title>Restaurants</title>
 </head>
 
-<body>
-    <h1 id='title'>Restaurants</h1>
-<ul>
-    <li id = 'resName'></li>
-    <li id = 'address'></li>
-    <li id = 'phone'></li>
-    <li id = 'website'></li>
-    <li id = 'hours'></li>
-    <li id = 'notes'></li>
-</ul>
+<body id=style>
+    <a href='../index.html' id='title'>Yelpington!</a>
+    <div id=containerThree>
+        <div id='containerOne'>
+
+            <h2 id='resName'></h3>
+            <h3 id='address'></h3>
+            <h3 id='phone'></h3>
+            <h3 id='website'></h3>
+            <h3 id='hours'></h3>
+        </div>
+
+        <div id='containerTwo'>
+            <div id='mapTwo'></div>
+        </div>
+        
+    </div>
+    <h2 id='notes'></h2>
     <script src='/restaurants.js'></script>
 
 </body>
