@@ -1,3 +1,4 @@
+// just setting up a basic server and brining in dependancies..
 const express = require('express')
 const app = express();
 const path = require('path');
@@ -15,19 +16,4 @@ app.get("/restaurants/:id", (req,res)=>{
 })
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-app.listen(port, () => console.log(`Listening on port ${port}!`))
+app.listen(port, () => console.log(`Searching for Rebel Scum at Port ${port}!`))

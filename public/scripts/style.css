@@ -9,24 +9,26 @@
     width: 25vw;
 }
 
-/* All main page / container styling should go here.. */
+
+/* All main page / container(s) styling should go here.. */
 #title {
     display: flex;
     justify-content: center;
     font-size: 500%;
     font-family: 'Bangers', cursive;
-    margin-top: 2%;
+    
     margin-bottom: 4%;
     text-decoration: none;
     color: black
 }
 
-#bold{
-    font-size:105%;
+#bold {
+    font-size: 105%;
     text-decoration: underline;
-    text-decoration-color:rgb(26, 149, 206);
+    text-decoration-color: rgb(26, 149, 206);
 }
-#larger{
+
+#larger {
     font-size: 120%;
 }
 
@@ -38,10 +40,14 @@
     align-items: center;
 }
 
-.single-rest{
+.backgroundColor {
+    background: rgba(223, 223, 223, 0.1);
+}
+
+.single-rest {
     text-decoration: none;
-    color:black;
-    font-size:116%;
+    color: black;
+    font-size: 116%;
 }
 
 /* Restaraunts page styling here.. */
@@ -55,7 +61,6 @@
     max-width: 50%;
     flex-direction: column;
     padding-right: 2%;
-
 }
 
 #containerTwo {
@@ -68,12 +73,33 @@
     justify-content: center;
     flex-direction: row;
     align-items: center;
+   
 }
-
-#notes {
+#nameCentrd{
     display: flex;
     justify-content: center;
-    margin-top: 3%;
-    margin-right: 10%;
-    margin-left: 10%;
 }
+
+#containerFour {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+/* comments section will go here */
+/* #commentSection { */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* background: rgba(223, 223, 223, 0.05); */
+    /* flex-direction: column; */
+/* } */
+/*  */
+/* #comments { */
+    /* display: flex; */
+    /* justify-content: center; */
+/* } */
+/* #commentText{ */
+    /* display: flex; */
+    /* justify-content: center; */
+/* } */
+/*  */
