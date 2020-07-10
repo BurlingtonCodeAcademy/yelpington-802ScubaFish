@@ -19,6 +19,7 @@ fetch(`http://yelpingtonapi.herokuapp.com/api/restaurants/${restId}`)
         var lat = parseFloat(coords[0]);
         var lon = parseFloat(coords[1]);
         L.marker([lat, lon]).addTo(myMap)
+        myMap.setView(new L.LatLng(lat, lon), 14);
     })
 // grab all the values from their keys and show the text in the html where targeted
 fetch(`http://yelpingtonapi.herokuapp.com/api/restaurants/${restId}`)
